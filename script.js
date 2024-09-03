@@ -32,7 +32,7 @@ function makeApiCall() {
     const lat2 = place2.geometry.location.lat()
     const lon2 = place2.geometry.location.lng()
 
-    const apiKey = '4b17ec579bd871a796c6c7ad24d1667d'
+    const apiKey = {YOUR_API_KEY_OPENWEATHER_API}
     const url1 = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat1}&lon=${lon1}&appid=${apiKey}`
     const url2 = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat2}&lon=${lon2}&appid=${apiKey}`
 
